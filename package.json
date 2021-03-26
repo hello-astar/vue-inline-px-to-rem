@@ -1,0 +1,23 @@
+{
+  "name": "vue-inline-px-to-rem",
+  "version": "1.0.0",
+  "description": "a webpack loader for vue projects to transform px units exiting in inline styles to rem units",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hello-astar/vue-inline-px-to-rem.git"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "chat",
+    "socket.io",
+    "koa-chat"
+  ],
+  "homepage": "https://github.com/hello-astar/vue-inline-px-to-rem",
+  "author": "astar",
+  "license": "ISC"
+}
