@@ -29,3 +29,8 @@ module.exports = {
 | Name | Type | Default | Description |
 | ------------ | ------------- | ------ | ----- |
 | rootValue | Number  | 100 | Represents the root element font size or returns the root element font size based on the input parameter
+
+### More
+#### to-do-list
+- [ ] add unit testing
+- [ ] add ignore-line or ignore-page feature
