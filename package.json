@@ -1,6 +1,6 @@
 {
   "name": "vue-inline-px-to-rem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a webpack loader for vue projects to transform px units exiting in inline styles to rem units",
   "main": "index.js",
   "scripts": {
