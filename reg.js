@@ -6,8 +6,8 @@ const contentReg = /<(template|script)>([\s\S]+)<\/(template|script)>/g;
 const pxReg = /\b(\d+(\.\d+)?)px\b/g;
 
 // 匹配${xxx}px => xxx内不能包含'${'和'}', 应为算术表达式
-const jsxReg = /\${((?!.*?\${).*?)}px/g;
- 
+const jsxReg = /\${((?!\${).)*}px/g;
+
 // 匹配aaa = xxx + 'px', aaa: xxx + 'px'的算术表达式
 const expressionReg = /(:|=)(?:\s+)?([+*/-\w\s.]+)\+(?:\s+)?['"]px['"]/g;
 
